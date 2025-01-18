@@ -7,5 +7,9 @@ app = Flask(__name__)
 def lw():
     return "Welcome to LW...bye \n"
 
+@app.route("/me")
+def lw():
+    return "Vimal Daga \n"
+
 
 app.run(host='0.0.0.0', port=5000)
