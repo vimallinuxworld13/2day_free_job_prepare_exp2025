@@ -8,7 +8,7 @@ def lw():
     return "Welcome to LW...bye \n"
 
 @app.route("/me")
-def lw():
+def lwme():
     return "Vimal Daga \n"
 
 
