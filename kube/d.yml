@@ -18,7 +18,7 @@ spec:
         app: myd
     spec:
       containers:
-      - image: vimal13/lwweb:v1
+      - image: vimal13/lwweb:v4
         name: apache-webserver-php
         resources: {}
 status: {}
